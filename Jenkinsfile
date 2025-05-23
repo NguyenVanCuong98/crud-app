@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        NODE_VERSION = '16'       // Phiên bản Node.js bạn muốn dùng
+        NODE_VERSION = '20'       // Phiên bản Node.js bạn muốn dùng
     }
 
     stages {
