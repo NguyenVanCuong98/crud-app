@@ -1,12 +1,12 @@
 import React from 'react';
-import AppRoutes from './routes/AppRoutes';
+import StudentContainer from './containers/UserContainer'; // Đường dẫn cần đúng
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <AppRoutes />
+      <StudentContainer />
     </div>
   );
-}
+};
 
 export default App;

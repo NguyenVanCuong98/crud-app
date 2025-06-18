@@ -1,8 +1,9 @@
+// reducers/index.js
 import { combineReducers } from 'redux';
-import studentReducer from './studentReducer';
+import userReducer from './userReducer';
 
 const rootReducer = combineReducers({
-  student: studentReducer,
+  student: userReducer,
 });
 
 export default rootReducer;
